@@ -9,7 +9,7 @@
 </script>
 
 <div onclick={closeModalFunction} class="fixed inset-0 bg-[#000000b9] flex items-center justify-center z-50">
-    <div class="max-w-[800px] max-h-[90vh] flex justify-center flex-col gap-5 overflow-y-auto p-5 rounded-lg shadow-lg bg-[#9D2B24]">
+    <div class="max-w-[800px] max-h-[80vh] flex justify-center flex-col gap-5 overflow-y-auto p-5 rounded-lg shadow-lg bg-[#9D2B24]">
         <div class="flex justify-between items-center gap-5">
             <h1 class="text-[#f2d8a9] text-2xl">Filme de {movieDay} de dezembro</h1>
             <button class="cursor-pointer" onclick={closeModalFunction}><Close /></button>
