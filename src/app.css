@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+:root {
+  --title-font: 'Cinzel Decorative', serif;
+  --text-font: 'Cormorant Garamond', serif;
+}
+
+body {
+    @apply bg-[#0F3D2E];
+}
+
+h1, .text-christmas {
+    font-family: var(--text-font);
+}
