@@ -23,7 +23,7 @@
                 <span class="text-sm">{info.whereToWatch} {info.year}</span>
                 <span></span>
             </div>
-        <img class="w-96" src={info.posterUrl} alt="">
+        <img class="w-full max-h-[50vh]" src={info.posterUrl} alt="">
        {/if}
 
 
